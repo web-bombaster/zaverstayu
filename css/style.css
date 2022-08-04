@@ -94,6 +94,8 @@ ul {
 
 .picture-hover img {
 	display: block;
+	width: 100%;
+	height: auto;
 	transition: 0.25s;
 }
 
