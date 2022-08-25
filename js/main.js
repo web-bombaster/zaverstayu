@@ -6,7 +6,7 @@ $('.reviews__list').slick({
 
 // Плавный скролинг до блока
 $(function() {
-	$('.menu a').click(function() {
+	$('.menu a, .hero__btn').click(function() {
 		var _href = $(this).attr('href');
 		$('html, body').animate({ scrollTop: $(_href).offset().top + 'px' }, 1500);
 		return false;

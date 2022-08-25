@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,7 +53,7 @@
 				<h1 class="hero__title visually-hidden">Сайт компании SCANDI</h1>
 				<h2 class="hero__title">Поможем сделать вашу квартиру уютнее</h2>
 				<p class="hero__descr">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
-				<button class="hero__btn btn">Оставить заявку</button>
+				<a href="#contacts" class="hero__btn btn">Оставить заявку</a>
 			</div>
 		</div>
 	</section>
@@ -62,7 +62,7 @@
 			<h2 class="about__title section__title">О нас</h2>
 			<div class="about__box">
 				<picture class="about__picture picture-hover">
-					<img src="./img/about.jpg" class="about__img" width="442" height="465" alt="О нас">
+					<img src="./img/about.jpg" class="about__img" width="442" height="465" alt="Фото со стильной сервировкой стола">
 				</picture>
 				<div class="about__descr">
 					<p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.</p>
@@ -135,14 +135,14 @@
 				</li>
 				<li class="team__item team-item">
 					<picture class="team__picture picture-hover">
-						<img class="team-item__img" src="./img/team-02.jpg" width="320" height="254" alt="Первый сотрудник">
+						<img class="team-item__img" src="./img/team-02.jpg" width="320" height="254" alt="Второй сотрудник">
 					</picture>
 					<div class="team-item__descr">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
 						и ответит на все вопросы.</div>
 				</li>
 				<li class="team__item team-item">
 					<picture class="team__picture picture-hover">
-						<img class="team-item__img" src="./img/team-03.jpg" width="320" height="254" alt="Первый сотрудник">
+						<img class="team-item__img" src="./img/team-03.jpg" width="320" height="254" alt="Третий сотрудник">
 					</picture>
 					<div class="team-item__descr">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обустроить дом так, чтобы вам понравилось.</div>
 				</li>
@@ -175,10 +175,10 @@
 					</figure>
 					<div class="reviews-item__media">
 						<picture class="reviews-item__picture picture-hover">
-							<img class="reviews-item__img" src="./img/reviews-01.jpg" width="398" height="265.98" alt="фото 1 для отзыва">
+							<img class="reviews-item__img" src="./img/reviews-01.jpg" width="398" height="265.98" alt="фото 1 для отзыва 1">
 						</picture>
 						<picture class="reviews-item__picture picture-hover">
-							<img class="reviews-item__img" src="./img/reviews-02.jpg" width="398" height="265.98" alt="фото 2 для отзыва">
+							<img class="reviews-item__img" src="./img/reviews-02.jpg" width="398" height="265.98" alt="фото 2 для отзыва 1">
 						</picture>
 					</div>
 				</li>
@@ -193,10 +193,10 @@
 					</figure>
 					<div class="reviews-item__media">
 						<picture class="reviews-item__picture picture-hover">
-							<img class="reviews-item__img" src="./img/reviews-01.jpg" width="398" height="265.98" alt="фото 1 для отзыва">
+							<img class="reviews-item__img" src="./img/reviews-01.jpg" width="398" height="265.98" alt="фото 1 для отзыва 2">
 						</picture>
 						<picture class="reviews-item__picture picture-hover">
-							<img class="reviews-item__img" src="./img/reviews-02.jpg" width="398" height="265.98" alt="фото 2 для отзыва">
+							<img class="reviews-item__img" src="./img/reviews-02.jpg" width="398" height="265.98" alt="фото 2 для отзыва 2">
 						</picture>
 					</div>
 				</li>
@@ -204,19 +204,21 @@
 		</div>
 	</section>
 	<section class="contacts section" id="contacts">
-		<div class="contacts__wrapper">
+		<div class="contacts__wrapper wrapper--full">
 			<div class="contacts__inner">
 				<div class="contacts-info">
-					<h2 class="contacts__title section__title section__title--left">Оставить заявку</h2>
-					<p class="contacts__descr">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-					<form class="contacts__form contacts-form" action="">
-						<input class="contacts-form__input" placeholder="Ваше имя" type="text" name="name" id="name">
-						<input class="contacts-form__input" placeholder="Введите телефон" type="tel" name="phone" id="phone" required>
-						<button class="contacts-form__btn btn" type="submit">Оставить заявку</button>
-					</form>
+					<div class="contacts__form-box">
+						<h2 class="contacts__title section__title section__title--left">Оставить заявку</h2>
+						<p class="contacts__descr">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+						<form class="contacts__form contacts-form" action="">
+							<input class="contacts-form__input" placeholder="Ваше имя" type="text" name="name" id="name">
+							<input class="contacts-form__input" placeholder="Введите телефон" type="tel" name="phone" id="phone" required>
+							<button class="contacts-form__btn btn" type="submit">Оставить заявку</button>
+						</form>
+					</div>
 				</div>
 				<div class="contacts-map">
-					<!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A923d2eb4dffe3575c7d63497e975d0e0bec290398ad3bc6dfc12597efe7c7d10&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script> -->
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A923d2eb4dffe3575c7d63497e975d0e0bec290398ad3bc6dfc12597efe7c7d10&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
 				</div>
 			</div>
 		</div>
